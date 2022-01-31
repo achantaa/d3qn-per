@@ -1,5 +1,10 @@
 # Playing Atari 2600 Pacman using Dueling Double Deep Q-Networks with Prioritized Experience Replay
 
+
+https://user-images.githubusercontent.com/25719320/151732537-13a1b638-408d-4d99-bd9a-b08d8bce8129.mp4
+
+
+
 This repository contains a Tensorflow 2 implementation of a [Dueling Double Deep Q-Network](https://arxiv.org/abs/1511.06581) that can train and play Atari 2600 games (currently set to and trained on `MsPacman-v0`).
 The model uses the OpenAI gym interface of the [Arcade Learning Environment (ALE)](https://github.com/mgbellemare/Arcade-Learning-Environment) to interact with the environment.
 
@@ -30,8 +35,10 @@ Frequency of updating the target Q-network = 10000
 
 ---
 > Reward after training for 600,000 frames
-> ![Rewards after training for 600,000 frames](./images/reward.png)
----
+
+![Rewards after training for 600,000 frames](./images/reward.png)
+
 > Loss after training for 600,000 frames
-> ![Loss after training for 600,000 frames](./images/loss.png)
+
+![Loss after training for 600,000 frames](./images/loss.png)
 ---
